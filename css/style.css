@@ -195,18 +195,82 @@ header{
     margin: 10px 0px 10px 650px;
     box-shadow: 4px 3px 11px #000000;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
 }
 .titulo-form{
-    color: rgb(3, 3, 3);
-    margin-left: 110px;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
     padding-bottom: 10px;
     font-size: 50px;
+    text-decoration: underline;
 }
 .control{
     color: violet;
 }
-.formulario-caja{
+
+.color{
+    color: white;
+}
+.boton{
+    color: white;
+    background-color:rgb(24, 39, 53) ;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 610px;
+    margin-top: 10px;
+}
+.input{
+    border-radius: 5px;
+    width: 250px;
+    
+}
+.input-texto{
     width: 600px;
-    height: 800px;
+    border-radius: 5px;
+}
+.servicio-mayor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: 90px;
+    margin-top: 100px;
+
 }
 
+.servi{
+    width: 500px;
+    height: 500px;
+    border: solid #000000 5px;
+    border-radius: 10px;
+    color: white;
+    background-image: url(../Multimedia/Imagen/lubricentro.jpg);
+    background-size: cover;
+}
+.servi2{
+    width: 500px;
+    height: 500px;
+    border: solid #000000 5px;
+    border-radius: 10px;
+    color: white;
+    background-image: url(../Multimedia/Imagen/coche-ilustrado-divertido-signo-dolar_183364-23770.avif);
+    background-size: cover;
+}
+.servi3{
+    width: 500px;
+    height: 500px;
+    border: solid #000000 5px;
+    border-radius: 10px;
+    color: white;
+    background-image: url(../Multimedia/Imagen/repuestos.webp);
+    background-size: cover;
+}
+.titulo-servicios{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 60px;
+    margin-top: 110px;
+    
+}
